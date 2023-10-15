@@ -1,0 +1,118 @@
+*{
+	scroll-behavior: smooth;
+}
+h1{
+	color:red;
+	text-align: center;
+}
+div~p{
+	background-color: yellow;
+}
+
+.satauri a:link{
+	color:green;
+}
+.satauri a:active{
+	color:yellow;
+	background-color: gray;
+}
+
+.satauri a:visited{
+	color:pink;
+}
+ 
+.tooltip p{
+	background-color: pink;
+	font-size: 30px;
+	padding: 20px;
+	display: none; 
+}
+.tooltip:hover p{
+	display: block;
+}
+.statia{
+	background-color: silver;
+	padding: 30px;
+	width: 60%;
+	line-height: 30px;
+}
+/* komentari */
+.statia::first-line{
+	color:red;
+}
+.statia:hover{
+	box-shadow: 5px 5px 10px black;
+}
+.statia::first-letter{
+	color: blue;
+	font-size: 40px;
+}
+
+.statia::before, .statia::after{
+	content:'☻';
+}
+
+::marker{
+	color:red;
+	font-size: 30px;
+}
+
+.statia::selection{
+	background: black;
+	color:yellow;
+}
+.navigation{
+	width: 80%;
+	margin: auto;
+	 text-align: center;
+}
+.navigation  ul li{
+	width: 100px;
+	padding: 20px;
+	margin: 30px;
+	text-align: center;
+	list-style-type: none;
+	display: inline-block;
+	background-color: black;
+	color: white;
+	font-family: impact;
+	font-size: 30px;
+}
+
+.navigation ul li:hover{
+box-shadow: 0 0 10px black;
+ color: tomato;
+}
+
+.navigation ul li a{
+	text-decoration: none;
+	color:white;
+}
+.infoBlock{
+	background-color: pink;
+	font-size: 30px;
+	padding: 30px;
+	margin: 50px;
+}
+
+.upArrow{
+	background-color: black;
+	color:white;
+	font-size: 30px;
+	font-family: impact;
+	width: 100px;
+	 padding: 10px;
+	 text-align: center;
+	position: fixed;
+	right:0px;
+	bottom: 0px;
+}
+.upArrow a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+
+
